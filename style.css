@@ -1,0 +1,359 @@
+.home{
+    height: 705px;
+    width: 1520px;
+    background-color:black;
+    border-radius: 20px;
+}
+.fixed
+      {
+        position: sticky;
+        top: 0;
+        background-color: black;
+        height:80px;
+        border-radius: 20px;
+      }
+a{
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    text-decoration: none;
+    float:right;
+    margin: 20px;
+    text-shadow: 0 0 20px rgb(101, 208, 205), 0 0 10px rgb(101, 208, 205), 0 0 30px rgb(101, 208, 205) ; 
+    transition: transform 0.8s, box-shadow 0.3s;
+}
+a:hover{
+    color:rgb(101, 208, 205);
+    transform: scale(1.2);
+}
+.active{
+  color:rgb(101, 208, 205);  
+   text-shadow: 0 0 30px white, 0 0 30px white, 0 0 80px white ; 
+}
+.main{
+    width:100%;
+}
+.sub{
+    width:50%;
+    float: left;
+}
+.sub1{
+    width:50%;
+    float: left;
+}
+.gap{
+    width:99%;
+}
+img{
+    height: 500px;
+    width: 450px;
+    border-radius:500px;
+    opacity: 90%;
+}
+.home .main .sub img {
+    width: 400px; 
+    height: 400px; 
+    border-radius: 50%; 
+    border: 5px solid transparent; 
+    box-shadow: 0 0 30px rgb(101, 208, 205), 0 0 20px rgb(101, 208, 205), 0 0 60px rgb(101, 208, 205) ; 
+    transition: transform 1.0s, box-shadow 0.3s; 
+}
+
+.home .main .sub img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 20px rgb(101, 208, 205), 0 0 40px rgb(101, 208, 205), 0 0 100px rgb(101, 208, 205);
+}
+.home .main .sub h1{
+    color:white;
+    margin-top: 100px; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: white;
+    
+}
+.home .main .sub p{
+    color: whitesmoke;
+    font-weight:bold;
+    font-size:45px;
+}
+
+#role {
+    color: rgb(101,208,205); 
+    font-weight: bold;
+    display: inline-block;
+}
+
+.icon-container {
+    display: flex;
+    gap: 20px;
+    padding-left: 230px;
+}
+.icon-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    transition: transform 0.2s ease;
+}
+.icon-container a:hover {
+    transform: scale(1.1);
+    color:rgb(101,208,205);
+}
+
+.brand{
+    width: 150px;
+    height: 70px;
+    padding: 10px;
+}
+/* about page */
+ .about-box{
+            width: 230px;
+            height:65px;
+            padding-top:2px; padding-bottom:20px;
+            background-color:black;
+            border-radius: 8px;
+            color: #58c9cd;
+            border: 5px solid transparent; 
+            box-shadow: 10px 10px 20px rgb(101, 208, 205), 0px 0px 0px rgb(101, 208, 205), 0 0 20px rgb(101, 208, 205) ;  
+            display: block;
+            margin-top: 50px;
+    }
+
+    .download{
+      width:200px;
+      height:40px;
+      box-shadow:1px 1px 2px rgb(101, 208, 205), 0px 0px 0px rgb(101, 208, 205), 0 0 2px rgb(101, 208, 205) ; 
+      color: white;
+      border-radius: 20px;
+      text-align: center;
+    }
+
+    .download:hover{
+      color:rgb(101, 208, 205);
+      background-color: white;
+    }
+
+/* contact page */
+.box{
+            width: 300px;
+            background-color:black;
+            padding: 5px;
+            border-radius: 8px;
+            color: #58c9cd;
+            border: 5px solid transparent; 
+            box-shadow: 10px 10px 10px rgb(101, 208, 205), 0px 0px 0px rgb(101, 208, 205), 0 0 20px rgb(101, 208, 205) ;  
+            display: block;
+    }
+ .box2{
+            width: 1000px;
+            height:250px;
+            background-color:black;
+            padding: 15px;
+            border-radius: 10px;
+            color: #58c9cd;
+            border:2px solid #58c9cd;
+            box-shadow: 0px 0px 0px rgb(101, 208, 205), 0px 0px 0px rgb(101, 208, 205), 0 0 20px rgb(101, 208, 205) ; 
+            display: block;
+
+    }
+.contact-container{
+        float:left;
+        padding:40px;
+        display:inline-block;
+        font-size:30px;
+    }
+
+    /* skill page */
+.skill-box{
+            width: 130px;
+            height:150px;
+            background-color:black;
+            padding: 5px;
+            border-radius: 8px;
+            color: whitesmoke;
+            border: 5px solid transparent; 
+            box-shadow: 10px 10px 20px rgb(101, 208, 205), 0px 0px 0px rgb(101, 208, 205), 0px 0px 10px rgb(101, 208, 205) ;  
+            display: block;
+            margin-top: 10px;
+            float:left;
+            padding-bottom: 10px;
+    }
+    .skill-box1{
+            width: 180px;
+            height:50px;
+            background-color:black;
+            padding: 5px;
+            border-radius: 8px;
+            color: whitesmoke;
+            border: 5px solid transparent; 
+            box-shadow: 10px 10px 20px rgb(101, 208, 205), 0px 0px 0px rgb(101, 208, 205), 0px 0px 10px rgb(101, 208, 205) ;  
+            display: block;
+            margin-top: 10px;
+            float:left;
+            padding-bottom: 10px;
+    }
+
+.skill-box:hover,.skill-box1:hover{
+          transform: scale(1.1); 
+          box-shadow: 0 0 10px rgb(101, 208, 205), 0 0 20px rgb(101, 208, 205), 0 0 20px rgb(101, 208, 205);
+          transition: transform 1s;
+      }
+
+    .home  fieldset{
+      width: 1400px;
+       border-radius: 10px;  
+      color: white;
+      text-shadow: 0 0 30px rgb(101, 208, 205), 0 0 20px rgb(101, 208, 205), 0 0 20px rgb(101, 208, 205) ; 
+      border: 5px solid transparent;
+      box-shadow: 0px 0px 0px rgb(101, 208, 205), 0px 0px 0px rgb(101, 208, 205), 0px 0px 20px rgb(101, 208, 205) ;  
+      padding: 10px;      
+    }
+
+    .technical img{
+       width: 80px;
+       height:80px; 
+    }
+    .technical{
+      display: flex; 
+      flex-wrap: wrap;
+      gap: 45px;
+      justify-content: center;
+      padding-bottom: 20px;
+    }
+
+    /* experience page */
+
+        .exp-box2{
+            width: 1150px;
+            height:220px;
+            background-color:black;
+            padding: 15px;
+            border-radius: 8px;
+            border-bottom-right-radius: 120px;
+            border-top-right-radius: 120px;
+            color: #58c9cd;
+            border:2px solid #58c9cd;
+            box-shadow: 0px 0px 0px rgb(101, 208, 205), 0px 0px 0px rgb(101, 208, 205), 0 0 20px rgb(101, 208, 205) ; 
+            display: block;
+    }
+
+      .exp-box4{
+            width: 1150px;
+            height:220px;
+            background-color:black;
+            padding: 15px;
+            border-radius: 8px;
+            border-bottom-left-radius: 120px;
+            border-top-left-radius: 120px;
+            color: #58c9cd;
+            border:2px solid #58c9cd;
+            box-shadow: 0px 0px 0px rgb(101, 208, 205), 0px 0px 0px rgb(101, 208, 205), 0 0 20px rgb(101, 208, 205) ; 
+            display: block;
+    }
+.exp-box2:hover,.exp-box4:hover{
+          transform: scale(1); 
+          box-shadow: 0 0 10px rgb(101, 208, 205), 0 0 20px rgb(101, 208, 205), 0 0 40px rgb(101, 208, 205);
+      }
+    .exp-box3{
+            width: 850px;
+            height:auto;
+            background-color:black;
+            padding: 15px;
+            border-radius: 200px;
+            color: #58c9cd;
+            border:2px solid #58c9cd;
+            box-shadow: 0px 0px 10px rgb(101, 208, 205), 0px 0px 0px rgb(101, 208, 205), 0 0px 10px rgb(101, 208, 205) ; 
+            float:right;
+    }
+    .exp-home{
+    height: auto;
+    width: 1520px;
+    background-color:black;
+    border-radius: 20px;
+    width:1505px;
+   }
+   .exp-home .exp-box2  img,.exp-home .exp-box4 img{
+    padding: 5px;
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    border: 5px solid transparent; 
+    box-shadow: 0 0 10px rgb(101, 208, 205), 0 0 10px rgb(101, 208, 205), 0 0 10px rgb(101, 208, 205) ; 
+    transition: transform 1.0s, box-shadow 0.3s; 
+  }
+  .exp-home .exp-box2 img:hover,.exp-home .exp-box4 img:hover{
+   transform: scale(1.1); 
+   box-shadow: 0 0 20px rgb(101, 208, 205), 0 0 40px rgb(101, 208, 205), 0 0 100px rgb(101, 208, 205);
+  }
+
+/* Achievements Page */
+
+.q-sub{
+    width:24%;
+    float: left;
+    color: white;  
+    height: auto;
+    border-right: 2px solid white; 
+   }
+   .title {
+      padding: 10px;
+      text-align: center;
+      font-weight: bolder;
+      background-color: black;
+      font-size: 20px;
+      text-shadow: 5px 5px 5px rgb(101, 208, 205), 0px 0px 0px rgb(101, 208, 205), 0 0 5px rgb(101, 208, 205);           
+    }
+    .info {
+      max-height: 0;
+      overflow: hidden;
+      background-color: black;
+      color:#58c9cd;
+      transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
+      padding: 0 20px;
+    }
+
+   .info .li{
+   text-align: justify;
+   font-size: 16px;
+   }
+   .info::-webkit-scrollbar {
+  width: 6px;
+}
+
+.info::-webkit-scrollbar-thumb {
+  background-color: #58c9cd;
+  border-radius: 10px;
+    height:5px;
+}
+
+.info::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.ac-box{
+            width: 500px;
+            background-color:black;
+            padding: 5px;
+            margin:5px;
+            border-radius: 10px;
+            color: #58c9cd;
+            border: 5px solid transparent; 
+            box-shadow: 10px 10px 10px rgb(101, 208, 205), 0px 0px 0px rgb(101, 208, 205), 0 0 20px rgb(101, 208, 205) ;  
+            display: block;
+    }
+    .ac-box1 {
+      width: 250px;
+      color: white;
+      transition: 0.3s;
+      border: 5px solid transparent; 
+      box-shadow: 5px 5px 5px rgb(101, 208, 205), 0px 0px 0px rgb(101, 208, 205), 0 0 5px rgb(101, 208, 205) ;  
+      border-radius: 10px;
+    }
+
+    .ac-box1:hover .info  {
+      max-height: 200px;
+      padding: 5px;
+      color:#58c9cd;
+      border-radius: 10px;
+      overflow-y: auto; 
+      border: 2px solid transparent; 
+      box-shadow: 0px 0px 2px rgb(101, 208, 205), 0px 0px 0px rgb(101, 208, 205), 0 0 2px rgb(101, 208, 205) ;  
+    }
