@@ -1,6 +1,6 @@
     @media (max-width: 1024px) {
     .home {
-        width: 100%;
+        width: auto;
         height: auto;
         padding-bottom: 40px;
     }
@@ -30,8 +30,9 @@
         float: none;
         display: inline-block;
         margin: 10px;
-         float:right;
-         padding-top:25px;
+        float:right;
+        padding-top:25px;
+        font-size:14px;
     }
 
     .home .main .sub h1 {
@@ -43,13 +44,14 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 642px) {
     .home {
         padding: 20px;
         border-radius: 0;
+        height:auto;
     }
    .brand {
-        width: 120px;
+        width: 80px;
         height: auto;
         float:left;
     }
@@ -69,24 +71,24 @@
 
     .icon-container {
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 15px;
     }
 
     a {
-        font-size: 14px;
-        margin: 8px;
+         margin: 4px;
          align-items: center;
          padding-top:25px;
+         padding-right: 0px;
          float:right;
+         font-size: 12px;
     }
 }
 
 @media (max-width: 480px) {
     .home {
         padding: 10px;
-        height:615px;
+        height:auto;
     }
-    
     .home .main .sub img {
         width: 150px;
         height: 150px;
@@ -97,9 +99,9 @@
     }
      
     .brand {
-        width:80px;
+        width:75px;
         height: auto;
-        display:block;
+        display:inline;
     }
     .icon-container {
         gap: 10px;
@@ -110,7 +112,41 @@
     }
 
     a {
-        font-size: 12px;
+        font-size: 10px;
+        padding-top:50px; 
+    }
+   
+}
+
+@media (max-width: 420px) {
+    .home {
+        padding: 10px;
+        height:auto;
+    }
+    .home .main .sub img {
+        width: 150px;
+        height: 150px;
+    }
+     
+    .home .main .sub p {
+        font-size: 22px;
+    }
+     
+    .brand {
+        width:75px;
+        height: auto;
+        display:inline;
+    }
+    .icon-container {
+        gap: 10px;
+    }
+
+    .icon-container a {
+        font-size: 24px;
+    }
+
+    a {
+        font-size: 10px;
         padding-top:50px; 
     }
    
